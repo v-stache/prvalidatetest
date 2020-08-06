@@ -6,10 +6,13 @@
 trigger:
 - none
 
-# pr:
-#   branches:
-#     include:
-#     - master
+pr:
+  branches:
+    include:
+    - master
+  path:
+    include:
+    - t2.txt
 
 pool:
   vmImage: 'ubuntu-latest'
