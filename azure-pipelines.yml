@@ -10,7 +10,7 @@ pr:
   branches:
     include:
     - master
-  path:
+  paths:
     include:
     - t2.txt
 
